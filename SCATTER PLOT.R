@@ -1,0 +1,5 @@
+set.seed(9)
+x &lt;- rnorm(1000)
+y &lt;- rnorm(1000)
+smoothScatter(y - x)
+smoothScatter(x,y)
