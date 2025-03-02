@@ -1,0 +1,6 @@
+names&lt;-c(&quot;siri&quot;,&quot;chru&quot;,&quot;loki&quot;)
+age&lt;-c(23,24,25)
+marks&lt;-c(88,78,25)
+df&lt;-data.frame(names,age,marks)
+hist(df$age)
+boxplot(df$age)
